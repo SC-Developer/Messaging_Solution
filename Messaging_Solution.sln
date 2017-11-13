@@ -3,8 +3,52 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging Console App", "Messaging Console App", "{F500C2D8-1A9C-4C15-99D7-769B58166902}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging PdfFileAdapter", "Messaging PdfFileAdapter", "{29C43E29-3994-4826-82D4-812170CB4BDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging SqlDatabaseAdapter", "Messaging SqlDatabaseAdapter", "{E5A78DD3-5A7C-4B69-9134-5EB3E3882E85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messaging.Client", "Messaging.Client\Messaging.Client.csproj", "{E4D22F50-979E-405B-BE50-B74EAC8FED07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messaging.PdfFileAdapter", "Messaging.PdfFileAdapter\Messaging.PdfFileAdapter.csproj", "{95471E76-397F-4A95-9375-2F81A2443301}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messaging.SqlDatabaseAdapter", "Messaging.SqlDatabaseAdapter\Messaging.SqlDatabaseAdapter.csproj", "{9664104A-BCFC-4A33-90C9-EDF049625921}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging MessageSimulator", "Messaging MessageSimulator", "{DB336F9C-50F6-4AD6-814E-02D0FB232D9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messaging.MessageSimulator", "Messaging.MessageSimulator\Messaging.MessageSimulator.csproj", "{3A3F9775-05D9-408B-9ED7-E07A94405C4C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4D22F50-979E-405B-BE50-B74EAC8FED07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D22F50-979E-405B-BE50-B74EAC8FED07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D22F50-979E-405B-BE50-B74EAC8FED07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D22F50-979E-405B-BE50-B74EAC8FED07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95471E76-397F-4A95-9375-2F81A2443301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95471E76-397F-4A95-9375-2F81A2443301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95471E76-397F-4A95-9375-2F81A2443301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95471E76-397F-4A95-9375-2F81A2443301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9664104A-BCFC-4A33-90C9-EDF049625921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9664104A-BCFC-4A33-90C9-EDF049625921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9664104A-BCFC-4A33-90C9-EDF049625921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9664104A-BCFC-4A33-90C9-EDF049625921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A3F9775-05D9-408B-9ED7-E07A94405C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3F9775-05D9-408B-9ED7-E07A94405C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3F9775-05D9-408B-9ED7-E07A94405C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3F9775-05D9-408B-9ED7-E07A94405C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4D22F50-979E-405B-BE50-B74EAC8FED07} = {F500C2D8-1A9C-4C15-99D7-769B58166902}
+		{95471E76-397F-4A95-9375-2F81A2443301} = {29C43E29-3994-4826-82D4-812170CB4BDC}
+		{9664104A-BCFC-4A33-90C9-EDF049625921} = {E5A78DD3-5A7C-4B69-9134-5EB3E3882E85}
+		{3A3F9775-05D9-408B-9ED7-E07A94405C4C} = {DB336F9C-50F6-4AD6-814E-02D0FB232D9B}
 	EndGlobalSection
 EndGlobal
